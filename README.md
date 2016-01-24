@@ -5,11 +5,15 @@ In prior projects we have used R and RStudio to process and visualize data, but 
 ## What it does
 BobblePlot uses the Myo for Processing library to incorporate the Myo's gesture recognition into a interactive visualization of a data. Here's what each of the recognized gestures does:
 
-Fist: Collapse Bubbles to the center of the sketch, cycle the value the Bubbles are sized and sorted by, and redraw the Bubbles.
-Fingers Spread: Cycle the text entry of each Bubble or turn text off. If text is not displayed, data values will also be hidden showing only the circles.
-Double Tap: Toggle on/off panning over the data using the Myo's orientation.
-Wave In: Zoom in
-Wave Out: Zoom out
+**Fist**: Collapse Bubbles to the center of the sketch, cycle the value the Bubbles are sized and sorted by, and redraw the Bubbles.
+
+**Fingers Spread**: Cycle the text entry of each Bubble or turn text off. If text is not displayed, data values will also be hidden showing only the circles.
+
+**Double Tap**: Toggle on/off panning over the data using the Myo's orientation.
+
+**Wave In**: Zoom in
+
+**Wave Out**: Zoom out
 
 The Processing sketch takes each line of the input file and creates a Bubble which can hold any number of strings or numbers. The sketch then draws each Bubble where the relative sizes represent relative values for the data. The user can then interact with the data using the various gestures in order to create a fluid, intuitive presentation of the data.
 
